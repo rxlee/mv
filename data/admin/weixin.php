@@ -1,0 +1,1 @@
+<?php define("isopen", "y"); define("title", "海洋影视"); define("url", "http://ysyz.xyz"); define("ckmov_url", "http://ysyz.xyz/ck/"); define("follow", "感谢您的关注。"); define("noc", "暂无你要的内容。"); define("dpic", "http://ysyz.xyz/api/wx.jpg"); define("help", "这是帮助信息。"); define("topage", "d"); define("sql_num", "5");  ?>
