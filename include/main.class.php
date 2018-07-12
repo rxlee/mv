@@ -3386,6 +3386,7 @@ class MainClass_Template
 		return $content;
 	}
 
+	//{seacms:maxhistory width=960 height=190 num=10 style=pic} 观看历史盒子显示标签 width及height属性分别控制宽度高度,num显示条数,style样式(pic或font) 默认为pic
 	function parseHistory($content){
 		$content=str_replace("{seacms:showhistory}","<a href=\"javascript:void(0)\" onclick=\"\$MH.showHistory(1);\">我的观看历史</a>",$content);
 		if (strpos($content,'{seacms:maxhistory')=== false){

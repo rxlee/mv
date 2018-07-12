@@ -1023,7 +1023,8 @@ function getSubStrByFromAndEnd($str,$startStr,$endStr,$operType){
 
 function getSubStrByFromAndEnd_en($str,$startStr,$endStr,$operType){
 
-	$location1=strpos($str,$startStr)+strlen($startStr);$location2=strpos($str,$endStr,$location1);
+	$location1=strpos($str,$startStr)+strlen($startStr);
+	$location2=strpos($str,$endStr,$location1);
 	$location3=$location2-$location1;
 	$getSubStrByFromAndEnd=substr($str,$location1,$location3);
 	return $getSubStrByFromAndEnd;
