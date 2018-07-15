@@ -1,1 +1,1 @@
-<?php $weburl = "ysyz.xyz"; $token = "123456789";  ?>
+<?php $weburl = "ysyz.xyz"; $token = "GtfmSRtD78vC8mAt";  ?>

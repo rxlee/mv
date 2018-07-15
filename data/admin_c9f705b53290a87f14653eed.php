@@ -1,1 +1,1 @@
-<?php $admin_path = ''; ?>
+<?php $admin_path = 'admmin'; ?>

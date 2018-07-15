@@ -273,7 +273,7 @@ EOT;
 		<div class="row">
 			<div class="hy-footer clearfix">
 				
-				<p class="text-muted">Copyright © 2008-2017</p>
+				<p class="text-muted">Copyright © 2008-2018</p>
 			</div>
 		</div>
 	</div>	
@@ -438,7 +438,7 @@ EOT;
 		<div class="row">
 			<div class="hy-footer clearfix">
 				
-				<p class="text-muted">Copyright © 2008-2017</p>
+				<p class="text-muted">Copyright © 2008-2018</p>
 			</div>
 		</div>
 	</div>	
@@ -625,7 +625,7 @@ EOT;
 		<div class="row">
 			<div class="hy-footer clearfix">
 				
-				<p class="text-muted">Copyright © 2008-2017</p>
+				<p class="text-muted">Copyright © 2008-2018</p>
 			</div>
 		</div>
 	</div>	
