@@ -28,7 +28,7 @@
 									    <div class="col-md-2 col-sm-3 col-xs-4">						    	
 								    		<a class="videopic lazy" href="[videolist:link]" title="[videolist:name]" data-original="[videolist:pic]" style=" background: url(images/load.gif) no-repeat; background-position:50% 50%; background-size: cover;" >												
 												<span class="play hidden-xs"></span>										
-												{if:[videolist:score] > 0.0}<span class="score">[videolist:score]</span>{end if}
+												{if:[videolist:douban] > 0.0}<span class="score">[videolist:douban]</span>{end if}
 												{if:"[videolist:note]" <> "" }<span class="note textbg">[videolist:note]</span>{end if}	
 											</a>
 											<div class="title">
@@ -50,7 +50,7 @@
 									    <div class="col-md-2 col-sm-3 col-xs-4">						    	
 								    		<a class="videopic" href="[videolist:link]" title="[videolist:name]" style=" background: url([videolist:pic]) no-repeat; background-position:50% 50%; background-size: cover;" >												
 												<span class="play hidden-xs"></span>										
-												{if:[videolist:score] > 0.0}<span class="score">[videolist:score]</span>{end if}
+												{if:[videolist:douban] > 0.0}<span class="score">[videolist:douban]</span>{end if}
 												{if:"[videolist:note]" <> "" }<span class="note textbg">[videolist:note]</span>{end if}	
 											</a>
 											<div class="title">

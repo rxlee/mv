@@ -94,9 +94,7 @@
 						<div class="hy-video-list cleafix">
 						    <div class="item">
 								{seacms:videolist type=all num=8 order=time}
-							    <div class="col-md-2 col-sm-3 col-xs-4 {if:[videolist:i] > 6}visible-sm{end if}">
-						    		{seacms:load block_video.html}
-								</div>
+								{seacms:load block_movie_card.html}
 								{/seacms:videolist}
 							</div>
 						</div>
@@ -104,9 +102,7 @@
 							<div class="item">
 								<ul class="clearfix">
 									{seacms:videolist type=all num=12 order=time start=7}
-									<li>
-										{seacms:load block_videotext.html}
-									</li>
+									{seacms:load block_movie_card.html}
 									{/seacms:videolist}
 								</ul>
 							</div>
@@ -208,7 +204,7 @@
 												<ul class="clearfix">
 									    			{seacms:videolist type=[menulist:typeid] order=douban num=7}
 													<li class="text-overflow {if:[videolist:i] > 6}hidden-md{end if}">
-														<span class="pull-right text-color">[videolist:score]</span>
+														<span class="pull-right text-color">[videolist:douban]</span>
 														<a href="[videolist:link]" title="[videolist:name]"><em class="number {if:[videolist:i] < 4}active{end if}">[videolist:i]</em>[videolist:name len=12]</a></li>
 													{/seacms:videolist}
 									    	   </ul>
@@ -281,7 +277,7 @@
 								    <div class="col-md-4 col-sm-4 col-xs-6">
 							    		<a class="videopic lazy" href="[videolist:link]" title="[videolist:name]" data-original="[videolist:pic]" style="padding-top: 62.5%; background: url(images/load_w.gif) no-repeat; background-position:50% 50%; background-size: cover;" >
 											<span class="play hidden-xs"></span>
-											{if:[videolist:score] > 0.0}<span class="score">[videolist:score]</span>{end if}
+											{if:[videolist:douban] > 0.0}<span class="score">[videolist:douban]</span>{end if}
 											<span class="note textbg">[videolist:name]</span>
 										</a>
 									</div>
@@ -357,7 +353,7 @@
 											<ul class="clearfix">
 								    			{seacms:videolist type=[menulist:typeid] order=douban num=8}
 													<li class="text-overflow {if:[videolist:i] > 7}hidden-md{end if}">
-														<span class="pull-right text-color">[videolist:score]</span>
+														<span class="pull-right text-color">[videolist:douban]</span>
 														<a href="[videolist:link]" title="[videolist:name]"><em class="number {if:[videolist:i] < 4}active{end if}">[videolist:i]</em>[videolist:name len=12]</a></li>
 												{/seacms:videolist}
 								    	   </ul>

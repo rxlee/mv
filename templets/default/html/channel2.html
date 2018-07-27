@@ -22,6 +22,16 @@
                 <div class="hy-min-screen clearfix">
                     <div class="item clearfix">
                         <dl class="clearfix">
+                            <dt class="text-muted">按类别</dt>
+                            <dd class="clearfix">
+                                <a href="/{seacms:sitepath}search.php?searchtype=5&tid=13">大陆剧</a>
+                                <a href="/{seacms:sitepath}search.php?searchtype=5&tid=14">港台剧</a>
+                                <a href="/{seacms:sitepath}search.php?searchtype=5&tid=15">欧美剧</a>
+                                <a href="/{seacms:sitepath}search.php?searchtype=5&tid=16">日韩剧</a>
+                                <a href="/{seacms:sitepath}search.php?searchtype=5&tid=31">海外剧</a>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
                             <dt class="text-muted">按剧情</dt>
                             <dd class="clearfix">{seacms:jqcaslist len=16}<a href="[jqcaslist:link]">[jqcaslist:value]</a>{/seacms:jqcaslist}</dd>
                         </dl>
@@ -44,7 +54,7 @@
                 <div class="hy-video-list cleafix">
                     <div class="item clearfix">
                         {seacms:videolist type={seacms:currenttypeid} num=9 order=time}
-                             {seacms:load block_movie_card.html}
+                            {seacms:load block_series_card.html}
                         {/seacms:videolist}
                     </div>
                 </div>
@@ -70,7 +80,7 @@
                 <div class="hy-video-list cleafix">
                     <div class="item clearfix">
                         {seacms:videolist num=9 order=time type={seacms:currenttypeid}}
-                        {seacms:load block_movie_card.html}
+                        {seacms:load block_series_card.html}
                         {/seacms:videolist}
                     </div>
                 </div>
@@ -85,7 +95,7 @@
                 <div class="hy-video-list cleafix">
                     <div class="item clearfix">
                         {seacms:videolist num=9 order=weekhit type=areatype}
-                        {seacms:load block_movie_card.html}
+                        {seacms:load block_series_card.html}
                         {/seacms:videolist}
                     </div>
                 </div>
@@ -103,17 +113,17 @@
                     <div class="item tab-content">
                         <ul class="clearfix tab-pane fade in active" id="list1">
                             {seacms:videolist num=36 size=36 order=time type=current}
-                            {seacms:load block_movie_card.html}
+                            {seacms:load block_series_card.html}
                             {/seacms:videolist}
                         </ul>
                         <ul class="clearfix tab-pane fade in" id="list2">
                             {seacms:videolist num=36 size=36 order=hit type=current}
-                            {seacms:load block_movie_card.html}
+                            {seacms:load block_series_card.html}
                             {/seacms:videolist}
                         </ul>
                         <ul class="clearfix tab-pane fade in" id="list3">
                             {seacms:videolist num=36 size=36 order=commend type=current}
-                            {seacms:load block_movie_card.html}
+                            {seacms:load block_series_card.html}
                             {/seacms:videolist}
                         </ul>
                     </div>

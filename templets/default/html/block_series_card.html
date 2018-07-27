@@ -1,0 +1,13 @@
+<!--电视剧卡片 -->
+<div class="col-md-2 col-sm-3 col-xs-4{if:[videolist:i]>6} visible-sm hidden-md{elseif:[videolist:i]>8} visible-sm hidden-md hidden-sm{end if}">
+    <a class="videopic lazy" href="[videolist:link]" title="[videolist:name]" data-original="[videolist:pic]" style="background: url(images/load.gif) no-repeat; background-position:50% 50%; background-size: cover;">
+        <span class="play hidden-xs"></span>
+        {if:[videolist:douban] > 0.0}<span class="score">[videolist:douban]</span>{end if}
+    </a>
+    <div class="title">
+        <h5 class="text-overflow"><a href="[videolist:link]">[videolist:name]</a></h5>
+    </div>
+    <div class="subtitle text-muted text-muted text-overflow hidden-xs">
+        [videolist:publishtime]&nbsp;[videolist:nolinkactor]
+    </div>
+</div>
