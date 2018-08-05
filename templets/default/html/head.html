@@ -1,11 +1,23 @@
+
+
+
 <div class="hy-head-menu">
 	<div class="container">
 	    <div class="row">
 		  	<div class="item">
-			    <div class="logo hidden-xs">
-					<a class="hidden-sm hidden-xs" href="http://{seacms:siteurl}"><img src="images/logo.png" /></a>
-		  			<a class="visible-sm visible-xs" href="http://{seacms:siteurl}"><img src="images/logo_min.png" /></a>											  
-				</div>	
+			    <div class="logo hidden-spanxs">
+					<a href="http://{seacms:siteurl}"><img src="images/logo.png" /></a>
+					<!--<a class="hidden-sm hidden-xs" href="http://{seacms:siteurl}"><img src="images/logo.png" /></a>-->
+		  			<!--<a class="visible-sm visible-xs" href="http://{seacms:siteurl}"><img src="images/logo_min.png" /></a>											  -->
+				</div>
+				<script>
+                    (function(){
+                        var ua = window.navigator.userAgent.toLowerCase();
+                        if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+                            document.write("<div><span class='text-danger pull-right text-right'>为获得更好的体验，请您使用自带浏览器访问↑↑</span></div>");
+                        }
+                    })();
+				</script>
 				<div class="search"> 
 			        <form name="formsearch" id="formsearch" action='/{seacms:sitepath}search.php' method="post" autocomplete="off">																			
 						<input class="form-control" placeholder="输入影片关键词..." name="searchword" type="text" id="keyword" required="">

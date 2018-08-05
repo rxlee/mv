@@ -145,8 +145,8 @@ function viewLeaveWord(){
 	}
 	
 	$mystr=
-	"<div class=\"col-md-9 col-sm-12 hy-main-content\"><div class=\"hy-layout clearfix\"><div class=\"hy-video-head\"><h4 class=\"margin-0\">留言板</h4></div>".leaveWordList($_GET['page'])."<script type=\"text/javascript\" src=\"js/base.js\"></script></div></div>".	
-"<div class=\"col-md-3 col-sm-12 hy-main-side\"><div class=\"hy-layout clearfix\"><div class=\"hy-video-head\"><h4 class=\"margin-0\">我要留言</h4></div>".
+	"<div class=\"col-md-9 col-sm-12 hy-main-content\"><div class=\"hy-layout clearfix\"><div class=\"hy-video-head\"><h4 class=\"margin-0\">留言板</h4></div>".leaveWordList($_GET['page'])."<script type=\"text/javascript\" src=\"js/base.js\"></script></div></div>".
+"<div class=\"col-md-3 col-sm-12 hy-main-side\"><div class=\"hy-layout clearfix\"><div class=\"hy-video-head\"><h4 class=\"margin-0\">留言求片</h4></div>".
 "<form id=\"f_leaveword\" class=\"form-horizontal\"  action=\"/".$GLOBALS['cfg_cmspath']."gbook.php?action=add\" method=\"post\">".
 "<input type=\"hidden\" value=\"$userid\" name=\"userid\" />".
 "<input type=\"hidden\" value=\"$uname\" name=\"m_author\" />".
@@ -174,7 +174,7 @@ function viewLeaveWord2(){
 	
 	$mystr=
 "<div class=\"col-md-9 col-sm-12 hy-main-content\"><div class=\"hy-layout clearfix\"><div class=\"hy-video-head\"><h4 class=\"margin-0\">留言板</h4></div><div class=\"hy-common\">".leaveWordList($_GET['page'])."<script type=\"text/javascript\" src=\"js/base.js\"></script></div></div></div>".	
-"<div class=\"col-md-3 col-sm-12 hy-main-side\"><div class=\"hy-layout clearfix\"><div class=\"hy-video-head\"><h4 class=\"margin-0\">我要留言</h4></div>".
+"<div class=\"col-md-3 col-sm-12 hy-main-side\"><div class=\"hy-layout clearfix\"><div class=\"hy-video-head\"><h4 class=\"margin-0\">留言求片</h4></div>".
 "<form id=\"f_leaveword\" class=\"form-horizontal\"  action=\"/".$GLOBALS['cfg_cmspath']."gbook.php?action=add\" method=\"post\">".
 "<input type=\"hidden\" value=\"$userid\" name=\"userid\" />".
 "<input type=\"hidden\" value=\"$uname\" name=\"m_author\" />".
